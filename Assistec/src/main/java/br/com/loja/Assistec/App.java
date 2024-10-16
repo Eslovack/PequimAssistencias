@@ -1,18 +1,11 @@
 package br.com.loja.Assistec;
 
-import br.com.Assistec.controller.LoginController;
-import br.com.loja.Assistec.view.LoginView;
+import br.com.loja.Assistec.visao.Loginview;
 
-/**
- * Hello world!
- */
 public class App {
     public static void main(String[] args) {
-    	LoginView view = new LoginView();
-    	@SuppressWarnings("unused")
-    	LoginController controller = new LoginController(view);
-    	view.setVisible(true);
-    	
-        
+    	Loginview view = new Loginview();
+		view.setVisible(true);
     }
 }
+	
